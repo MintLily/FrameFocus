@@ -6,8 +6,8 @@ Need to install MelonLoader?<br>
 Click [this link](https://melonwiki.xyz/) to get started!
 
 ### Prerequisites
-MelonLoader: v0.3.0 (Alpha)
-Game: VRChat (2021.1.2(p1) [build 1043 - 1046])
+MelonLoader: v0.3.0 (Alpha)<br>
+Game: VRChat (2021.1.2(p1) [build 1043 - 1046])<br>
 Extras: [UIExpansionKit](https://github.com/knah/VRCMods)
 
 ### MelonPreferences
@@ -24,4 +24,5 @@ allowVRUse - Allows the function to be used with VR Mode
 
 ### Preview
 ![Preview GIF](https://kortyboi.com/img/upload/QQscYMB2ho.gif)<br>
-*White Top Bar = unfocused, Black Top Bar = focused*
+*White Top Bar = unfocused (5 FPS)*<br>
+*Black Top Bar = focused (user set 145 FPS)*
