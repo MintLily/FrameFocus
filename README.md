@@ -7,7 +7,7 @@ Click [this link](https://melonwiki.xyz/) to get started!
 
 ### Prerequisites
 MelonLoader: v0.3.0 (Alpha)<br>
-Game: VRChat (2021.1.2(p1) [build 1043 - 1046])<br>
+Game: VRChat (2021.1.2(p1) [build 1046 - 1048])<br>
 Extras: [UIExpansionKit](https://github.com/knah/VRCMods)
 
 ### MelonPreferences
