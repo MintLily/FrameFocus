@@ -8,8 +8,8 @@ namespace FrameFocus.Utilities
 
         public static void RunCompatibilityCheck()
         {
-            if ((MelonHandler.Mods.FindIndex((MelonMod i) => i.Info.Name == "emmVRC") != -1) || 
-                MelonHandler.Mods.FindIndex((MelonMod i) => i.Info.Name == "emmVRCLoader") != -1)
+            if ((MelonHandler.Mods.FindIndex((MelonMod i) => i.Info.Name == "emmVRCLoader") != -1) || 
+                MelonHandler.Mods.FindIndex((MelonMod i) => i.Info.Name == "emmVRC") != -1)
             {
                 emmVRC = true;
                 if (FrameFocus.isDebug)
