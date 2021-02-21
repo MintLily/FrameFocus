@@ -16,9 +16,9 @@ Game: VRChat (2021.1.2(p1) [build 1046 - 1048])<br>
 ### MelonPreferences (Default Values)
 ```
 [FrameFocus]
+allowFrameLimit = false
 FrameLimit = 90
 allowVRUse = false
-allowFrameLimit = false
 override_emmVRC = false
 ```
 <br>
