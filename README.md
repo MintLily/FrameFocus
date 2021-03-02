@@ -31,3 +31,16 @@ override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVR
 ![Preview GIF](https://kortyboi.com/img/upload/QQscYMB2ho.gif)<br>
 *White Top Bar = unfocused (5 FPS)*<br>
 *Black Top Bar = focused (user set 145 FPS)*
+
+# Change Log
+### v1.1.1
+* Changed order of methods loading to fix an error caused by a lack of emmVRC config file
+* ModCompatibility will load on VRChat_OnUiManagerInit
+* OnUpdate will not start until 6 seconds after VRChat_OnUiManagerInit
+
+### v1.1.0
+* Added emmVRC integration.
+* Made New Description of mod
+
+### v1.0.0
+* Initial Release
