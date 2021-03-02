@@ -58,6 +58,7 @@
     <Compile Include="Utilities\GETemmVRCconfig.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Utilities\ModCompatibility.cs" />
+    <Compile Include="Utilities\StartLate.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
