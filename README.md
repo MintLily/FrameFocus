@@ -35,7 +35,7 @@ override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVR
 # Change Log
 ### v1.1.1
 * Changed order of methods loading to fix an error caused by a lack of emmVRC config file
-* ModCompatibility will load on VRChat_OnUiManagerInit
+* ModCompatibility will load after 5 seconds on VRChat_OnUiManagerInit to give enough time for emmVRC to create a config file if you're running emmVRC for the first time
 * OnUpdate will not start until 6 seconds after VRChat_OnUiManagerInit
 
 ### v1.1.0
