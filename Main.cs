@@ -21,6 +21,7 @@ namespace FrameFocus
         public static bool isDebug;
         public static MelonPreferences_Category melon;
         public static MelonPreferences_Entry<int> FrameLimit;
+        public static MelonPreferences_Entry<int> FrameLimitUnfocused;
         public static MelonPreferences_Entry<bool> allowFrameLimit;
         public static MelonPreferences_Entry<bool> allowVRUse;
         public static MelonPreferences_Entry<bool> override_emmVRC;
@@ -36,6 +37,7 @@ namespace FrameFocus
             melon = MelonPreferences.CreateCategory(BuildInfo.Name, BuildInfo.Name);
             allowFrameLimit = (MelonPreferences_Entry<bool>)melon.CreateEntry("allowFrameLimit", false, "Toggle Frame Focus");
             FrameLimit = (MelonPreferences_Entry<int>)melon.CreateEntry("FrameLimit", 90, "Max Frame Limit");
+            FrameLimitUnfocused = (MelonPreferences_Entry<int>)melon.CreateEntry("FrameLimitUnfocused", 5, "Unfocused Frame Limit");
             allowVRUse = (MelonPreferences_Entry<bool>)melon.CreateEntry("allowVRUse", false, "Allow VR to Limit FrameRate");
             override_emmVRC = (MelonPreferences_Entry<bool>)melon.CreateEntry("override_emmVRC", false, "Make FrameFocus ignore emmVRC integration (only works if emmVRC is detected)");
 
@@ -61,6 +63,7 @@ namespace FrameFocus
                 MelonLogger.Msg("[Debug] \n" +
                     " ================= Preferences Values: ============== \n" +
                     " ============== int  FrameLimit      = " + FrameLimit.Value.ToString() + "\n" +
+                    " ============== int FrameLimitUnfocused = " + FrameLimitUnfocused.Value.ToString() + "\n" +
                     " ============== bool allowFrameLimit = " + allowFrameLimit.Value.ToString() + "\n" +
                     " ============== bool allowVRUse      = " + allowVRUse.Value.ToString() + "\n" +
                     " ============== bool override_emmVRC = " + override_emmVRC.Value.ToString() + "\n" +
