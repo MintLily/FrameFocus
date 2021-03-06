@@ -38,7 +38,7 @@ namespace FrameFocus.Utilities
                             Application.targetFrameRate = (int)FrameFocus.FrameLimit.Value; // Sets game's FrameRate to Given Target FPS
                     }
                     else
-                        Application.targetFrameRate = (int)5; // Sets game's FrameRate to 5 FPS
+                        Application.targetFrameRate = (int)FrameFocus.FrameLimitUnfocused.Value; // Sets game's FrameRate to target FPS
                 }
             }
         }
