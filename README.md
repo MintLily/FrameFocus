@@ -49,3 +49,8 @@ override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVR
 
 ### v1.0.0
 * Initial Release
+
+
+
+## Stay Updated
+Stay update to date with all my mods by joining my [discord server](https://discord.gg/qkycuAMUGS) today.
