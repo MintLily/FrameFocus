@@ -24,8 +24,7 @@ namespace FrameFocus.Utilities
                     return; // ends method
                 else // true
                 {
-                    if (XRDevice.isPresent && !FrameFocus.allowVRUse.Value)
-                        return;
+                    if (XRDevice.isPresent) return; // If in VR all frame limits are disabled
                     if (Application.isFocused) // isFocused = If you are controlling the game a.k.a. if your mouse has been pressed onto the game
                     {
                         if (FrameFocus.override_emmVRC.Value && ModCompatibility.emmVRC) // ignored emmVRC integration

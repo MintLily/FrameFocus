@@ -7,7 +7,7 @@ Click [this link](https://melonwiki.xyz/) to get started!
 
 ### Prerequisites
 MelonLoader: v0.3.0 (Alpha)<br>
-Game: VRChat (2021.1.2(p1) [build 1046 - 1048])<br>
+Game: VRChat build 1069<br>
 
 ### Optional Prerequisites
 [UIExpansionKit](https://github.com/knah/VRCMods)<br>
@@ -19,14 +19,12 @@ Game: VRChat (2021.1.2(p1) [build 1046 - 1048])<br>
 allowFrameLimit = false
 FrameLimit = 90
 FrameLimitUnfocused = 5
-allowVRUse = false
 override_emmVRC = false
 ```
 <br>
 allowFrameLimit - (Main Toggle) Toggle the framerate when the application is focused or not<br>
 FrameLimit - sets game's Frame Rate<br>
 FrameLimitUnfocused - sets game's Frame Rate when unfocused<br>
-allowVRUse - Allows the function to be used with VR Mode<br>
 override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVRC is detected)
 
 ### Preview
@@ -35,6 +33,9 @@ override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVR
 *Black Top Bar = focused (user set 145 FPS)*
 
 # Change Log
+### v1.3.0
+* Removed VR Usage
+
 ### v1.2.0
 * Added `FrameLimitUnfocused` to set your unfocused framerate - suggested by [ljoonal](https://github.com/KortyBoi/FrameFocus/pull/1)
 
