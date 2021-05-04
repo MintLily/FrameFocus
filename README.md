@@ -6,12 +6,11 @@ Need to install MelonLoader?<br>
 Click [this link](https://melonwiki.xyz/) to get started!
 
 ### Prerequisites
-MelonLoader: v0.3.0 (Alpha)<br>
-Game: VRChat build 1069<br>
+MelonLoader: v0.3.0+ (Alpha)
 
 ### Optional Prerequisites
-[UIExpansionKit](https://github.com/knah/VRCMods)<br>
-[emmVRC](https://discord.gg/emmvrc)
+[UIExpansionKit](https://github.com/knah/VRCMods) (VRChat)<br>
+[emmVRC](https://discord.gg/emmvrc) (VRChat)
 
 ### MelonPreferences (Default Values)
 ```
@@ -33,6 +32,9 @@ override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVR
 *Black Top Bar = focused (user set 145 FPS)*
 
 # Change Log
+### v1.4.0
+Mod is not a universal mod for ML v0.3.0+
+
 ### v1.3.0
 * Removed VR Usage
 
