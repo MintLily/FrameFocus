@@ -37,7 +37,7 @@ MelonLoader: v0.3.0+ (Alpha)
 - Pistol Whip
 
 ### MelonPreferences (Default Values)
-```
+```ini
 [FrameFocus]
 allowFrameLimit = false
 FrameLimit = 90
