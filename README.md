@@ -12,6 +12,30 @@ MelonLoader: v0.3.0+ (Alpha)
 [UIExpansionKit](https://github.com/knah/VRCMods) (VRChat)<br>
 [emmVRC](https://discord.gg/emmvrc) (VRChat)
 
+### Tested Games
+- BONEWORKS
+- VRChat
+- Risk of Rain 2
+- NeosVR
+- Arizona Sunshine
+- VTOL VR
+- SynthRiders
+- Audica
+- The Long Dark
+- Job Simlulator & Vacation Simulator
+- BTD 6
+
+### Unknown / Not Tested
+- Phasmophobia
+- Blade & Sorcery
+- The Forest
+- Eden Rising
+- Ultimate Epic Battle Simulator
+- Totally Accurate Battle Simulator
+- SCP Unity
+- H3VR
+- Pistol Whip
+
 ### MelonPreferences (Default Values)
 ```
 [FrameFocus]
@@ -33,7 +57,10 @@ override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVR
 
 # Change Log
 ### v1.4.0
-Mod is not a universal mod for ML v0.3.0+
+* v1.4.0 was still only hooking into VRChat, this update fixes that. Now works in all game running with ML v0.3.0+
+
+### v1.4.0
+* Mod is not a universal mod for ML v0.3.0+
 
 ### v1.3.0
 * Removed VR Usage
