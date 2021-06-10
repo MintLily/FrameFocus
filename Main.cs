@@ -11,7 +11,7 @@ namespace FrameFocus
         public const string Name = "FrameFocus";
         public const string Author = "Lily";
         public const string Company = null;
-        public const string Version = "1.4.0";
+        public const string Version = "1.4.1";
         public const string DownloadLink = "https://github.com/MintLily/FrameFocus";
         public const string Description = "FrameFocus is a computer performance enhancement game utility. This will allow you to gain a slight bit of performance while you are tabbed out of the game. When you are tabbed out, your frame rate will drop (this is to unfocusing the game, thus causing extra performance through out your computer). Once you tab back in, your frame rate will go back to normal. This mod also doubles as a frame rate unlocker of sorts. You can set a max target frame rate you would like the game to try and run at.";
     }
@@ -39,20 +39,12 @@ namespace FrameFocus
             FrameLimitUnfocused = (MelonPreferences_Entry<int>)melon.CreateEntry("FrameLimitUnfocused", 5, "Unfocused Frame Limit"); // suggested by ljoonal
             override_emmVRC = (MelonPreferences_Entry<bool>)melon.CreateEntry("override_emmVRC", false, "Make FrameFocus ignore emmVRC integration (only works if emmVRC is detected)");
 
-            //ModCompatibility.RunCompatibilityCheck();
+            MelonCoroutines.Start(ModCompatibility.RunCompatibilityCheck());
+            MelonCoroutines.Start(StartLate.Init());
             MelonLogger.Msg("Initialized!");
         }
 
-        public override void VRChat_OnUiManagerInit()
-        {
-            MelonCoroutines.Start(ModCompatibility.RunCompatibilityCheck());
-            MelonCoroutines.Start(StartLate.Init());
-        }
-
-        public override void OnUpdate()
-        {
-            StartLate.OnUpdate();
-        }
+        public override void OnUpdate() => StartLate.OnUpdate();
 
         public override void OnPreferencesSaved() 
         {
