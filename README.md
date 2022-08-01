@@ -1,20 +1,16 @@
 # FrameFocus
-FrameFocus is a computer performance enhancement game utility. This will allow you to gain a slight bit of performance while you are tabbed out of the game. When you are tabbed out, your frame rate will drop (this is to unfocusing the game, thus causing extra performance through out your computer). Once you tab back in, your frame rate will go back to normal. This mod also doubles as a frame rate unlocker of sorts. You can set a max target frame rate you would like the game to try and run at.
+FrameFocus is a computer performance enhancement game utility. This will allow you to gain a slight bit of performance while you are tabbed out of the game. When you are tabbed out, your frame rate will drop (this is to unfocusing the game, thus causing extra performance through out your computer). Once you tab back in, your frame rate will go back to normal. This mod also doubles as a frame rate unlocker of sorts. You can set a max target frame rate you would like the game to try and run at. Works on both Mono and IL2CPP games.
 
 ### MelonLoader
 Need to install MelonLoader?<br>
 Click [this link](https://melonwiki.xyz/) to get started!
 
 ### Prerequisites
-MelonLoader: v0.3.0+ (Alpha)
-
-### Optional Prerequisites
-[UIExpansionKit](https://github.com/knah/VRCMods) (VRChat)<br>
-[emmVRC](https://discord.gg/emmvrc) (VRChat)
+MelonLoader: v0.5.4+ (Alpha)
 
 ### Tested Games
 - BONEWORKS
-- VRChat
+- VRChat (EAC Prevention)
 - Risk of Rain 2
 - NeosVR
 - Arizona Sunshine
@@ -24,6 +20,7 @@ MelonLoader: v0.3.0+ (Alpha)
 - The Long Dark
 - Job Simlulator & Vacation Simulator
 - BTD 6
+- ChilloutVR
 
 ### Unknown / Not Tested
 - Phasmophobia
@@ -40,15 +37,13 @@ MelonLoader: v0.3.0+ (Alpha)
 ```ini
 [FrameFocus]
 allowFrameLimit = false
-FrameLimit = 90
+FrameLimit = 120
 FrameLimitUnfocused = 5
-override_emmVRC = false
 ```
 <br>
 allowFrameLimit - (Main Toggle) Toggle the framerate when the application is focused or not<br>
 FrameLimit - sets game's Frame Rate<br>
-FrameLimitUnfocused - sets game's Frame Rate when unfocused<br>
-override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVRC is detected)
+FrameLimitUnfocused - sets game's Frame Rate when unfocused
 
 ### Preview
 ![Preview GIF](https://kortyboi.com/img/upload/QQscYMB2ho.gif)<br>
@@ -56,7 +51,12 @@ override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVR
 *Black Top Bar = focused (user set 145 FPS)*
 
 # Change Log
-### v1.4.0
+### v1.5.0
+* Added both Mono and IL2CPP builds
+* Updated for MelonLoader v0.5.4
+* Removed (VRChat mod) emmVRC mod compatibility
+
+### v1.4.1
 * v1.4.0 was still only hooking into VRChat, this update fixes that. Now works in all game running with ML v0.3.0+
 
 ### v1.4.0
@@ -79,8 +79,3 @@ override_emmVRC - Make FrameFocus ignore emmVRC integration (only works if emmVR
 
 ### v1.0.0
 * Initial Release
-
-
-
-## Stay Updated
-Stay update to date with all my mods by joining my [discord server](https://discord.gg/qkycuAMUGS) today.

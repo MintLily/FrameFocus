@@ -1,4 +1,8 @@
 .vs/
-Output/
-obj/
 .git/
+.idea/
+Mono/Output/
+Mono/obj/
+IL2CPP/Output/
+IL2CPP/obj/
+FrameFocus.json

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameFocus", "FrameFocus.csproj", "{188BC472-59F7-46F6-B760-65C18BA74389}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameFocus-Mono", "Mono/FrameFocus-Mono.csproj", "{188BC472-59F7-46F6-B760-65C18BA74389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameFocus-IL2CPP", "IL2CPP\FrameFocus-IL2CPP.csproj", "{188BC472-59F7-46F6-B760-65C18BA74389}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

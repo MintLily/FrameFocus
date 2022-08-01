@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿/*
+using Newtonsoft.Json;
 using System;
 using System.IO;
 using MelonLoader;
@@ -27,3 +28,4 @@ namespace FrameFocus.Utilities
         public static emmVRCConfig ReadConfig() { return _Config; }
     }
 }
+*/
