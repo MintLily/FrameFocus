@@ -14,9 +14,10 @@ public static class StartLateUtil {
     }
 
     public static void RunOnUpdate() {
+        if (_isInVr) return;
         if (!_hasStartedLate) return;
         if (!Main.AllowFrameLimit.Value) return;
-        if (_isInVr) return;
+        if (QualitySettings.vSyncCount != 0) return; // Very helpful - https://docs.unity3d.com/ScriptReference/QualitySettings-vSyncCount.html
         
         Application.targetFrameRate = Application.isFocused ? Main.FrameLimit.Value : Main.FrameLimitUnfocused.Value;
     }

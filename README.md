@@ -1,12 +1,17 @@
 # FrameFocus
-FrameFocus is a computer performance enhancement game utility. This will allow you to gain a slight bit of performance while you are tabbed out of the game. When you are tabbed out, your frame rate will drop (this is to unfocusing the game, thus causing extra performance through out your computer). Once you tab back in, your frame rate will go back to normal. This mod also doubles as a frame rate unlocker of sorts. You can set a max target frame rate you would like the game to try and run at. Works on both Mono and IL2CPP games.
+FrameFocus is a computer performance enhancement game utility. This will allow you to gain a slight bit of performance while you are tabbed out of the game. When you are tabbed out, your frame rate will drop (this is to unfocusing the game, thus causing extra performance through out your computer). Once you tab back in, your frame rate will go back to normal. This mod also doubles as a frame rate unlocker of sorts. You can set a max target frame rate you would like the game to try and run at.
+<br>
+<b>Note:</b><br>
+V-Sync <u>must</u> be turned off for this mod to properly work.<br>
+<br>
+Works on both Mono and IL2CPP games.
 
 ### MelonLoader
 Need to install MelonLoader?<br>
 Click [this link](https://melonwiki.xyz/) to get started!
 
 ### Prerequisites
-MelonLoader: v0.5.4+ (Alpha)
+MelonLoader: v0.5.4 or above
 
 ### Tested Games
 - BONEWORKS
@@ -51,6 +56,9 @@ FrameLimitUnfocused - sets game's Frame Rate when unfocused
 *Black Top Bar = focused (user set 145 FPS)*
 
 # Change Log
+### v1.5.1
+* Added detection for V-Sync options
+
 ### v1.5.0
 * Added both Mono and IL2CPP builds
 * Updated for MelonLoader v0.5.4
